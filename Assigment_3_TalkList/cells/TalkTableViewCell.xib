@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TalkTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="127" id="KGk-i7-Jjw" customClass="TalkTableViewCell" customModule="Assigment_3_TalkList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="528" height="108.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="528" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VTp-dQ-uGM">
+                        <rect key="frame" x="162" y="4" width="362" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victor Vescovo , David Biello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8v-TJ-Mep">
+                                <rect key="frame" x="12" y="4" width="350" height="19.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's at the bottom of Ocean -- and how we'r getting there" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odc-2v-DdD">
+                                <rect key="frame" x="12" y="27.5" width="350" height="44"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="M8v-TJ-Mep" secondAttribute="trailing" id="4GB-xb-tb8"/>
+                            <constraint firstItem="Odc-2v-DdD" firstAttribute="leading" secondItem="M8v-TJ-Mep" secondAttribute="leading" id="Hgi-73-Jxw"/>
+                            <constraint firstItem="M8v-TJ-Mep" firstAttribute="leading" secondItem="VTp-dQ-uGM" secondAttribute="leading" constant="12" id="eir-TH-3aS"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Odc-2v-DdD" secondAttribute="bottom" constant="4" id="hpN-ev-qpZ"/>
+                            <constraint firstItem="Odc-2v-DdD" firstAttribute="top" secondItem="M8v-TJ-Mep" secondAttribute="bottom" constant="4" id="hu7-wa-5ya"/>
+                            <constraint firstItem="Odc-2v-DdD" firstAttribute="trailing" secondItem="M8v-TJ-Mep" secondAttribute="trailing" id="kJO-TB-sQV"/>
+                            <constraint firstItem="M8v-TJ-Mep" firstAttribute="top" secondItem="VTp-dQ-uGM" secondAttribute="top" constant="4" id="ymx-KO-5HY"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zVJ-Vm-c2n">
+                        <rect key="frame" x="12" y="4" width="150" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_pic" translatesAutoresizingMaskIntoConstraints="NO" id="LMK-nh-Yb3">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="us4-VR-Bi4">
+                                <rect key="frame" x="113" y="79" width="33" height="17"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="12"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="9xs-Tb-tTS"/>
+                            <constraint firstAttribute="bottom" secondItem="us4-VR-Bi4" secondAttribute="bottom" constant="4" id="UE5-QO-Zcg"/>
+                            <constraint firstAttribute="bottom" secondItem="LMK-nh-Yb3" secondAttribute="bottom" id="Zws-ZD-94z"/>
+                            <constraint firstAttribute="trailing" secondItem="us4-VR-Bi4" secondAttribute="trailing" constant="4" id="agq-zg-BJs"/>
+                            <constraint firstAttribute="trailing" secondItem="LMK-nh-Yb3" secondAttribute="trailing" id="df9-8e-Go2"/>
+                            <constraint firstAttribute="width" constant="150" id="dob-Gq-BC7"/>
+                            <constraint firstItem="LMK-nh-Yb3" firstAttribute="top" secondItem="zVJ-Vm-c2n" secondAttribute="top" id="epD-Wg-kRL"/>
+                            <constraint firstItem="LMK-nh-Yb3" firstAttribute="leading" secondItem="zVJ-Vm-c2n" secondAttribute="leading" id="xa8-f1-kS6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                <constraints>
+                    <constraint firstItem="VTp-dQ-uGM" firstAttribute="bottom" secondItem="zVJ-Vm-c2n" secondAttribute="bottom" id="1M8-iH-a1n"/>
+                    <constraint firstAttribute="trailing" secondItem="VTp-dQ-uGM" secondAttribute="trailing" constant="4" id="1oZ-E0-YRt"/>
+                    <constraint firstItem="zVJ-Vm-c2n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="56W-Qg-Kwf"/>
+                    <constraint firstItem="VTp-dQ-uGM" firstAttribute="leading" secondItem="zVJ-Vm-c2n" secondAttribute="trailing" id="Hm7-ud-PPe"/>
+                    <constraint firstAttribute="bottom" secondItem="zVJ-Vm-c2n" secondAttribute="bottom" constant="4" id="fLJ-sp-hkR"/>
+                    <constraint firstItem="VTp-dQ-uGM" firstAttribute="top" secondItem="zVJ-Vm-c2n" secondAttribute="top" id="hO7-jH-QrT"/>
+                    <constraint firstItem="zVJ-Vm-c2n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="tUp-jO-93G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblSpeach" destination="Odc-2v-DdD" id="UkY-nh-Q9y"/>
+                <outlet property="lblSpeaker" destination="M8v-TJ-Mep" id="9yp-18-Xpv"/>
+            </connections>
+            <point key="canvasLocation" x="76.811594202898561" y="49.21875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default_pic" width="2560" height="1440"/>
+    </resources>
+</document>
